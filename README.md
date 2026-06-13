@@ -5,7 +5,7 @@
 <h1 align="center">Jejak Rasa Nusantara</h1>
 
 <p align="center">
-  Aplikasi web berbasis PHP untuk menjelajahi, mendokumentasikan, dan menyimpan informasi kuliner tradisional Nusantara.
+  Aplikasi web berbasis PHP untuk menjelajahi, mendokumentasikan, dan menyimpan informasi kuliner tradisional.
 </p>
 
 ---
