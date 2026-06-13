@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://jejakrasa.site.je/gambar/logoweb.svg" alt="Jejak Rasa Nusantara" width="120">
+  <img src="https://jejakrasa.site.je/gambar/logojr.png" alt="Jejak Rasa Nusantara" width="120">
 </p>
 
 <h1 align="center">Jejak Rasa Nusantara</h1>
