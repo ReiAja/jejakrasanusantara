@@ -1,0 +1,147 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff8e1; /* disesuaikan dengan tema amber-50 Tailwind */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Menggunakan min-height agar bisa di-scroll jika konten melebihi tinggi layar */
+  margin: 0;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+/* Kotak login & register */
+.login-box {
+  background: #ffffff;
+  padding: 30px 24px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Membuat box elastis mengikuti lebar wrapper */
+  max-width: 380px; /* Batas maksimal lebar box */
+  margin: auto;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Tombol close (X) */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+  line-height: 1;
+}
+
+.close-btn:hover {
+  color: #f0b900;
+  transform: scale(1.15);
+}
+
+/* Gambar user di tengah */
+.profile-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.profile-icon img {
+  width: 70px;
+  height: auto;
+}
+
+/* Input style */
+.custom-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 25px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.custom-input:focus {
+  background-color: #ffffff;
+  border-color: #ffcc00;
+  box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.25);
+}
+
+/* Tombol login / register */
+.yellow-button {
+  background-color: #ffcc00;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.yellow-button:hover {
+  background-color: #f0b900;
+}
+
+/* Teks bawah */
+.switch-text {
+  font-size: 14px;
+  color: #555;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.switch-link-yellow {
+  color: #f0b900;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.switch-link-yellow:hover {
+  text-decoration: underline;
+}
+
+/* Utility Class untuk menyembunyikan elemen */
+.hidden {
+  display: none !important;
+}
+
+/* Animasi masuk */
+@keyframes fadeIn {
+  from { transform: scale(0.96); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* ── MEDIA QUERY KHUSUS MOBILE LANDSCAPE (LAYAR PENDEK) ── */
+@media (max-height: 500px) and (orientation: landscape) {
+  body {
+    align-items: flex-start; /* Membantu scroll dimulai dari paling atas */
+    padding: 15px;
+  }
+  .login-box {
+    padding: 20px 24px; /* Memperkecil padding vertikal agar ringkas */
+  }
+  .profile-icon {
+    display: none; /* Menyembunyikan avatar demi menghemat ruang layar miring */
+  }
+  h2 {
+    margin-bottom: 12px !important;
+    font-size: 1.25rem !important;
+  }
+}
