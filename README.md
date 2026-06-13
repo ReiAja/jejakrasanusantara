@@ -1,8 +1,12 @@
-# 🍲 Jejak Rasa Nusantara
+<p align="center">
+  <img src="https://jejakrasa.site.je/gambar/logoweb.svg" alt="Jejak Rasa Nusantara" width="120">
+</p>
 
-Aplikasi web berbasis PHP yang dirancang untuk menjelajahi, mendokumentasikan, dan menyimpan informasi kuliner tradisional dari berbagai penjuru Nusantara. Proyek ini dibuat untuk mempermudah pengguna dalam menemukan cita rasa khas Indonesia.
+<h1 align="center">Jejak Rasa Nusantara</h1>
 
-🌐 **Deployment:** [jejakrasa.site.je](https://jejakrasa.site.je)
+<p align="center">
+  Aplikasi web berbasis PHP untuk menjelajahi, mendokumentasikan, dan menyimpan informasi kuliner tradisional Nusantara.
+</p>
 
 ---
 
